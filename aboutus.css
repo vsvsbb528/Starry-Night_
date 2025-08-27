@@ -1,0 +1,266 @@
+html, body {
+    height: 100%;
+    min-height: 140vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(54, 209, 124), rgb(39, 180, 50), rgb(117, 228, 43));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+nav {
+    padding: 25px;
+    display: flex;
+    opacity: 90%;
+    gap: 75px;
+}
+
+nav h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button1 i {
+    font-size: 1.2rem;
+}
+
+.button1:hover {
+    color: black;
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transform: scale(1.3);
+    transition-delay: 0.2;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button2 i {
+    font-size: 1.2rem;
+}
+
+.button2:hover {
+    color: black;
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transform: scale(1.3);
+    transition-delay: 0.2;
+}
+
+.button3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button3 i {
+    font-size: 1.2rem;
+}
+
+.button3:hover {
+    color: black;
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transform: scale(1.3);
+    transition-delay: 0.2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-us {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 2.4rem;
+    text-align: center;
+    cursor: default;
+}
+
+.container-us h1 {
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.container-us:hover h1 {
+    color: black;
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition-delay: 0.2;
+}
+
+.container-us1{
+    padding: 5px;
+    margin: 24px 40px;
+}
+
+.containercontent {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    cursor: default;
+}
+
+.container-us2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    padding: 20px;
+    margin: 24px 40px;
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.container-us2 {
+    padding: 20px;
+    margin: 24px 40px;
+    transition: 0.3s, color 0.3s, transform 0.3s;
+    background-color: rgb(230, 230, 230);
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+.container-us2:hover {
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition-delay: 0.2;
+}
+
+.aboutus-news {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
+.aboutus-left {
+    flex: 2;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 32px 28px;
+    box-shadow: 0 4px 24px rgba(54, 209, 124, 0.822);
+    color: #222;
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.aboutus-left h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0;
+    color: rgb(54, 209, 124);
+}
+
+.aboutus-left h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(73, 30, 175);
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.aboutus-left p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
+
+.aboutus-left:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transition-delay: 0.2;
+    cursor: default;
+}
+
+.aboutus-card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 24px rgba(73,30,175,0.08);
+    transition: 0.3s, color 0.3s, transform 0.3s;
+}
+
+.aboutus-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out all;
+    border-radius: 10px;
+    transition-delay: 0.2;
+    cursor: default;
+}
+
+.aboutus-photo img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba(0, 255, 98, 0.5);
+    margin-bottom: 18px;
+    background: #fff;
+}
+
+.aboutus-info h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 8px 0;
+    color: rgb(54, 209, 124);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.aboutus-info p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    font-size: 1rem;
+    color: #222;
+    text-align: center;
+}
