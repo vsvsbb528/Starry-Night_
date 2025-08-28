@@ -1,8 +1,13 @@
 html, body {
     height: 100%;
-    min-height: 130vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 body {
@@ -192,4 +197,49 @@ main {
     font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
     margin: 0;
+}
+
+/* Responsive: adapta el layout en móviles */
+@media (max-width: 800px) {
+    nav {
+        gap: 24px;
+        padding: 12px;
+    }
+    .container {
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+    .project-announcement {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        padding: 16px 8px;
+        margin: 20px 0;
+        max-width: 100%;
+    }
+    .project-img img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .project-desc h2 {
+        font-size: 1.3rem;
+    }
+    .project-desc p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    nav h1 {
+        font-size: 1.1rem;
+    }
+    .container {
+        font-size: 1.1rem;
+    }
+    .project-announcement {
+        padding: 8px 2px;
+    }
 }
